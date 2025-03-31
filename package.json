@@ -1,0 +1,18 @@
+{
+    "name": "whatsapp-mcp",
+    "version": "0.0.1",
+    "description": "Multi-Channel Platform for WhatsApp with multi-agent conversation management",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "whatsapp",
+        "multi-agent",
+        "conversation",
+        "mcp",
+        "api"
+    ],
+    "author": "WhatsApp MCP",
+    "license": "MIT"
+}
