@@ -1,6 +1,6 @@
 {
     "name": "whatsapp-mcp",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Multi-Channel Platform for WhatsApp with multi-agent conversation management",
     "main": "index.js",
     "bin": {
@@ -28,7 +28,8 @@
         "whatsapp-bridge",
         "whatsapp-mcp-server",
         "index.js",
-        "README.md"
+        "README.md",
+        ".npmignore"
     ],
     "engines": {
         "node": ">=14.0.0"
@@ -39,5 +40,12 @@
         "chalk": "^4.1.2",
         "commander": "^9.4.1",
         "inquirer": "^8.2.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lharries/whatsapp-mcp"
+    },
+    "bugs": {
+        "url": "https://github.com/lharries/whatsapp-mcp/issues"
     }
 }

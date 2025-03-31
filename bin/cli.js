@@ -5,10 +5,84 @@ const chalk = require('chalk');
 const path = require('path');
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { spawn } = require('child_process');
+const { spawn, spawnSync } = require('child_process');
 const whatsappMcp = require('../index');
+const os = require('os');
 
 const packageJson = require('../package.json');
+
+// Helper to detect Go
+function checkGoInstallation() {
+  try {
+    const goVersionCmd = spawnSync('go', ['version'], { encoding: 'utf8' });
+    if (goVersionCmd.status === 0) {
+      return true;
+    }
+  } catch (err) {
+    // Go not found
+  }
+  return false;
+}
+
+// Helper to detect UV and get its path
+function getUvPath() {
+  // First check if we have a stored UV path
+  const packageDir = path.resolve(__dirname, '..');
+  const uvPathFile = path.join(packageDir, '.uvpath');
+  
+  if (fs.existsSync(uvPathFile)) {
+    try {
+      const storedPath = fs.readFileSync(uvPathFile, 'utf8').trim();
+      // Verify the path still works
+      const result = spawnSync(storedPath, ['--version'], { encoding: 'utf8' });
+      if (result.status === 0) {
+        return storedPath;
+      }
+    } catch (err) {
+      // Fallback to searching
+    }
+  }
+  
+  // Try finding UV in PATH
+  try {
+    const uvVersionCmd = spawnSync('uv', ['--version'], { encoding: 'utf8' });
+    if (uvVersionCmd.status === 0) {
+      return 'uv';
+    }
+  } catch (err) {
+    // UV not in PATH
+  }
+  
+  // Check common installation directories
+  const homeDir = os.homedir();
+  const commonPaths = [
+    '/usr/local/bin/uv',
+    '/usr/bin/uv',
+    path.join(homeDir, '.local', 'bin', 'uv'),
+    path.join(homeDir, '.cargo', 'bin', 'uv')
+  ];
+  
+  // Add Windows paths if on Windows
+  if (process.platform === 'win32') {
+    commonPaths.push(path.join(os.homedir(), 'AppData', 'Local', 'Programs', 'uv', 'uv.exe'));
+  }
+  
+  for (const testPath of commonPaths) {
+    if (fs.existsSync(testPath)) {
+      try {
+        const result = spawnSync(testPath, ['--version'], { encoding: 'utf8' });
+        if (result.status === 0) {
+          return testPath;
+        }
+      } catch (e) {
+        // Continue checking other paths
+      }
+    }
+  }
+  
+  // Default value as fallback
+  return '/usr/local/bin/uv';
+}
 
 // Setup CLI
 program
@@ -23,7 +97,26 @@ program
   .action(() => {
     console.log(chalk.blue('Starting WhatsApp MCP bridge...'));
     
+    // Check for Go before starting
+    if (!checkGoInstallation()) {
+      console.log(chalk.red('Error: Go is not installed or not in your PATH.'));
+      console.log(chalk.yellow('Please install Go from https://golang.org/'));
+      console.log(chalk.yellow('On macOS: brew install go'));
+      console.log(chalk.yellow('On Linux: sudo apt-get install golang-go'));
+      console.log(chalk.yellow('On Windows: Download from https://golang.org/dl/'));
+      process.exit(1);
+    }
+    
     const bridge = whatsappMcp.startBridge();
+    
+    bridge.on('error', (err) => {
+      if (err.code === 'ENOENT') {
+        console.log(chalk.red('Error: Go executable not found. Make sure Go is installed and in your PATH.'));
+        process.exit(1);
+      } else {
+        console.log(chalk.red(`Error: ${err.message}`));
+      }
+    });
     
     bridge.on('close', (code) => {
       if (code !== 0) {
@@ -51,15 +144,38 @@ program
       process.exit(1);
     }
     
+    // Get default UV path
+    const defaultUvPath = getUvPath();
+    
     // Get UV path
     const { uvPath } = await inquirer.prompt([
       {
         type: 'input',
         name: 'uvPath',
         message: 'Path to UV executable (run "which uv" to find it):',
-        default: '/usr/local/bin/uv'
+        default: defaultUvPath
       }
     ]);
+    
+    // Verify the UV path
+    try {
+      const result = spawnSync(uvPath, ['--version'], { encoding: 'utf8' });
+      if (result.status !== 0) {
+        console.log(chalk.yellow(`Warning: Could not verify UV at ${uvPath}. Configuration may not work.`));
+      } else {
+        console.log(chalk.green(`✅ UV found at ${uvPath}: ${result.stdout.trim()}`));
+        
+        // Save the verified UV path
+        try {
+          const packageDir = path.resolve(__dirname, '..');
+          fs.writeFileSync(path.join(packageDir, '.uvpath'), uvPath);
+        } catch (err) {
+          // Non-critical error, can continue
+        }
+      }
+    } catch (err) {
+      console.log(chalk.yellow(`Warning: Could not verify UV at ${uvPath}. Configuration may not work.`));
+    }
     
     // Package directory
     const packageDir = path.resolve(__dirname, '..');
