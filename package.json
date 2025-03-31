@@ -1,18 +1,43 @@
 {
     "name": "whatsapp-mcp",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Multi-Channel Platform for WhatsApp with multi-agent conversation management",
     "main": "index.js",
+    "bin": {
+        "whatsapp-mcp": "./bin/cli.js"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node scripts/postinstall.js"
     },
     "keywords": [
         "whatsapp",
         "multi-agent",
         "conversation",
         "mcp",
-        "api"
+        "api",
+        "claude",
+        "anthropic",
+        "ai",
+        "assistant"
     ],
+    "files": [
+        "bin",
+        "lib",
+        "scripts",
+        "whatsapp-bridge",
+        "whatsapp-mcp-server",
+        "index.js",
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=14.0.0"
+    },
     "author": "WhatsApp MCP",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^9.4.1",
+        "inquirer": "^8.2.5"
+    }
 }
