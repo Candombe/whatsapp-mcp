@@ -4,7 +4,7 @@
     "description": "Multi-Channel Platform for WhatsApp with multi-agent conversation management",
     "main": "index.js",
     "bin": {
-        "whatsapp-mcp": "./bin/cli.js"
+        "whatsapp-mcp": "bin/cli.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
