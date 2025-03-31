@@ -1,0 +1,124 @@
+2025-03-31T11:01:42.032Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:01:42.045Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:01:42.051Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:01:42.789Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:01:42.792Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:01:43.105Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:01:43.513Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:01:43.522Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:01:43.522Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:01:58.177Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:01:58.178Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:01:58.178Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:01:58.178Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:01:58.179Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:01:58.179Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:01:58.179Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:01:58.179Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:01:58.179Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:01:58.180Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:01:58.180Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:01:58.180Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:01:58.180Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:01:58.188Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:01:58.188Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:00.035Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:02:00.039Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:02:00.040Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:00.382Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:02:00.385Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:02:00.386Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:01.129Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:02:01.131Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:02:01.133Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:01.878Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:02:01.884Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:02:01.888Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:03.970Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:02:03.970Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:03.970Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:03.970Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:02:03.970Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:04.226Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:02:04.226Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:04.226Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:04.226Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:02:04.226Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:04.801Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:02:04.801Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:04.801Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:04.801Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:02:04.801Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:05.730Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:02:05.730Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:05.730Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:05.730Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:02:05.731Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:08.681Z [info] [ableton-mcp] Initializing server...
+2025-03-31T11:02:08.716Z [info] [ableton-mcp] Server started and connected successfully
+2025-03-31T11:02:08.717Z [info] [ableton-mcp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:12.219Z [info] [ableton-mcp] Server transport closed
+2025-03-31T11:02:12.219Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:02:12.219Z [info] [ableton-mcp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:12.220Z [error] [ableton-mcp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:02:12.220Z [info] [ableton-mcp] Client transport closed
+2025-03-31T11:09:08.626Z [info] [whatsapp] Initializing server...
+2025-03-31T11:09:08.637Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:09:08.638Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:09:08.643Z [info] [whatsapp] Server transport closed
+2025-03-31T11:09:08.644Z [info] [whatsapp] Client transport closed
+2025-03-31T11:09:08.644Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:09:08.644Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:09:10.146Z [info] [whatsapp] Initializing server...
+2025-03-31T11:09:10.181Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:09:10.182Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:09:10.199Z [info] [whatsapp] Server transport closed
+2025-03-31T11:09:10.199Z [info] [whatsapp] Client transport closed
+2025-03-31T11:09:10.199Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:09:10.199Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:10:02.239Z [info] [whatsapp] Initializing server...
+2025-03-31T11:10:02.247Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:10:02.248Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:10:02.250Z [info] [whatsapp] Server transport closed
+2025-03-31T11:10:02.250Z [info] [whatsapp] Client transport closed
+2025-03-31T11:10:02.250Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:10:02.250Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:10:03.101Z [info] [whatsapp] Initializing server...
+2025-03-31T11:10:03.107Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:10:03.107Z [error] [whatsapp] spawn /usr/local/bin/uv ENOENT
+2025-03-31T11:10:03.118Z [info] [whatsapp] Server transport closed
+2025-03-31T11:10:03.118Z [info] [whatsapp] Client transport closed
+2025-03-31T11:10:03.118Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:10:03.118Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:19:55.121Z [info] [whatsapp] Initializing server...
+2025-03-31T11:19:55.134Z [info] [whatsapp] Server started and connected successfully
+2025-03-31T11:19:55.139Z [info] [whatsapp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:19:55.975Z [info] [whatsapp] Initializing server...
+2025-03-31T11:19:55.991Z [info] [whatsapp] Server started and connected successfully
+2025-03-31T11:19:55.997Z [info] [whatsapp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:19:56.839Z [info] [whatsapp] Server transport closed
+2025-03-31T11:19:56.840Z [info] [whatsapp] Client transport closed
+2025-03-31T11:19:56.840Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:19:56.840Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:19:56.840Z [info] [whatsapp] Client transport closed
+2025-03-31T11:19:56.841Z [info] [whatsapp] Server transport closed
+2025-03-31T11:19:56.841Z [info] [whatsapp] Client transport closed
+2025-03-31T11:19:56.841Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:19:56.841Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:19:56.841Z [info] [whatsapp] Client transport closed
+2025-03-31T11:21:59.232Z [info] [whatsapp] Initializing server...
+2025-03-31T11:21:59.244Z [info] [whatsapp] Server started and connected successfully
+2025-03-31T11:21:59.247Z [info] [whatsapp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:21:59.308Z [info] [whatsapp] Server transport closed
+2025-03-31T11:21:59.308Z [info] [whatsapp] Client transport closed
+2025-03-31T11:21:59.308Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:21:59.308Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:21:59.309Z [info] [whatsapp] Client transport closed
+2025-03-31T11:22:00.362Z [info] [whatsapp] Initializing server...
+2025-03-31T11:22:00.368Z [info] [whatsapp] Server started and connected successfully
+2025-03-31T11:22:00.404Z [info] [whatsapp] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:22:00.487Z [info] [whatsapp] Server transport closed
+2025-03-31T11:22:00.487Z [info] [whatsapp] Client transport closed
+2025-03-31T11:22:00.487Z [info] [whatsapp] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:22:00.487Z [error] [whatsapp] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-03-31T11:22:00.487Z [info] [whatsapp] Client transport closed

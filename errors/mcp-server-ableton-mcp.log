@@ -1,0 +1,232 @@
+2025-03-31T11:01:42.032Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:01:42.045Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:01:42.051Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:01:42.789Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:01:42.792Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:01:43.105Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:01:43.513Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:01:43.522Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:01:43.522Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Starting child process setup...
+[Runner] Starting child process setup...
+[Runner] Starting child process setup...
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Attempting to close transport...
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Transport closed successfully
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Cleanup completed
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+[Runner] Final cleanup on exit
+2025-03-31T11:01:58.177Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:01:58.179Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:01:58.180Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:01:58.177Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:01:58.178Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:01:58.178Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:01:58.179Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:01:58.179Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:01:58.179Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:01:58.179Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:01:58.180Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:01:58.180Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:01:58.180Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:01:58.180Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:01:58.188Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:00.035Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:02:00.039Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:02:00.040Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:00.382Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:02:00.385Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:02:00.386Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:01.129Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:02:01.131Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:02:01.133Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:02:01.878Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:02:01.884Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:02:01.888Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Starting child process setup...
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Starting child process setup...
+2025-03-31T11:02:03.970Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:02:03.970Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:03.970Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:03.970Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:02:03.970Z [ableton-mcp] [info] Client transport closed
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+2025-03-31T11:02:04.225Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:02:04.226Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:04.226Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:04.226Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:02:04.226Z [ableton-mcp] [info] Client transport closed
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Starting child process setup...
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+2025-03-31T11:02:04.800Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:02:04.801Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:04.801Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:04.801Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:02:04.801Z [ableton-mcp] [info] Client transport closed
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Starting child process setup...
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+2025-03-31T11:02:05.730Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:02:05.730Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:05.730Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:05.730Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:02:05.731Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:08.681Z [ableton-mcp] [info] Initializing server...
+2025-03-31T11:02:08.716Z [ableton-mcp] [info] Server started and connected successfully
+2025-03-31T11:02:08.717Z [ableton-mcp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+[Runner] Connecting to server: { id: '@ahujasid/ableton-mcp', connectionTypes: [ 'stdio', 'ws' ] }
+[Runner] Starting child process setup...
+[Runner] Executing: { command: 'uvx', args: [ 'ableton-mcp' ] }
+[Runner] Child process error: spawn uvx ENOENT
+[Runner] Failed to spawn child process - check if the command exists and is executable
+[Runner] Exit handler triggered, starting shutdown...
+[Runner] Starting cleanup...
+[Runner] Attempting to close transport...
+[Runner] Transport closed successfully
+[Runner] Cleanup completed
+[Runner] Fatal error: Error: spawn uvx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn uvx',
+  path: 'uvx',
+  spawnargs: [ 'ableton-mcp' ]
+}
+[Runner] Final cleanup on exit
+2025-03-31T11:02:12.219Z [ableton-mcp] [info] Server transport closed
+2025-03-31T11:02:12.219Z [ableton-mcp] [info] Client transport closed
+2025-03-31T11:02:12.219Z [ableton-mcp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:02:12.219Z [ableton-mcp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:02:12.220Z [ableton-mcp] [info] Client transport closed

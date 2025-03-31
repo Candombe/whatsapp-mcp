@@ -1,0 +1,72 @@
+2025-03-31T11:09:08.625Z [whatsapp] [info] Initializing server...
+2025-03-31T11:09:08.637Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"context":"connection","stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:09:08.638Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:09:08.643Z [whatsapp] [info] Server transport closed
+2025-03-31T11:09:08.644Z [whatsapp] [info] Client transport closed
+2025-03-31T11:09:08.644Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:09:08.644Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:09:10.146Z [whatsapp] [info] Initializing server...
+2025-03-31T11:09:10.181Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"context":"connection","stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:09:10.182Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:09:10.199Z [whatsapp] [info] Server transport closed
+2025-03-31T11:09:10.199Z [whatsapp] [info] Client transport closed
+2025-03-31T11:09:10.199Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:09:10.199Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:10:02.238Z [whatsapp] [info] Initializing server...
+2025-03-31T11:10:02.247Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"context":"connection","stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:10:02.248Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:10:02.250Z [whatsapp] [info] Server transport closed
+2025-03-31T11:10:02.250Z [whatsapp] [info] Client transport closed
+2025-03-31T11:10:02.250Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:10:02.250Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:10:03.101Z [whatsapp] [info] Initializing server...
+2025-03-31T11:10:03.107Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"context":"connection","stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:10:03.107Z [whatsapp] [error] spawn /usr/local/bin/uv ENOENT {"stack":"Error: spawn /usr/local/bin/uv ENOENT\n    at ChildProcess._handle.onexit (node:internal/child_process:285:19)\n    at onErrorNT (node:internal/child_process:483:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+2025-03-31T11:10:03.118Z [whatsapp] [info] Server transport closed
+2025-03-31T11:10:03.118Z [whatsapp] [info] Client transport closed
+2025-03-31T11:10:03.118Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:10:03.118Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:19:55.120Z [whatsapp] [info] Initializing server...
+2025-03-31T11:19:55.134Z [whatsapp] [info] Server started and connected successfully
+2025-03-31T11:19:55.139Z [whatsapp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-03-31T11:19:55.975Z [whatsapp] [info] Initializing server...
+2025-03-31T11:19:55.990Z [whatsapp] [info] Server started and connected successfully
+2025-03-31T11:19:55.997Z [whatsapp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+Using CPython 3.11.3 interpreter at: /usr/local/bin/python3.11
+Creating virtual environment at: .venv
+error: failed to create directory `/usr/local/lib/node_modules/whatsapp-mcp/whatsapp-mcp-server/.venv`: Permission denied (os error 13)
+Using CPython 3.11.3 interpreter at: /usr/local/bin/python3.11
+Creating virtual environment at: .venv
+error: failed to create directory `/usr/local/lib/node_modules/whatsapp-mcp/whatsapp-mcp-server/.venv`: Permission denied (os error 13)
+2025-03-31T11:19:56.839Z [whatsapp] [info] Server transport closed
+2025-03-31T11:19:56.840Z [whatsapp] [info] Client transport closed
+2025-03-31T11:19:56.840Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:19:56.840Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:19:56.840Z [whatsapp] [info] Client transport closed
+2025-03-31T11:19:56.841Z [whatsapp] [info] Server transport closed
+2025-03-31T11:19:56.841Z [whatsapp] [info] Client transport closed
+2025-03-31T11:19:56.841Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:19:56.841Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:19:56.841Z [whatsapp] [info] Client transport closed
+2025-03-31T11:21:59.232Z [whatsapp] [info] Initializing server...
+2025-03-31T11:21:59.244Z [whatsapp] [info] Server started and connected successfully
+2025-03-31T11:21:59.247Z [whatsapp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+Using CPython 3.11.3 interpreter at: /usr/local/bin/python3.11
+Creating virtual environment at: .venv
+error: failed to create directory `/usr/local/lib/node_modules/whatsapp-mcp/whatsapp-mcp-server/.venv`: Permission denied (os error 13)
+2025-03-31T11:21:59.308Z [whatsapp] [info] Server transport closed
+2025-03-31T11:21:59.308Z [whatsapp] [info] Client transport closed
+2025-03-31T11:21:59.308Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:21:59.308Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:21:59.309Z [whatsapp] [info] Client transport closed
+2025-03-31T11:22:00.362Z [whatsapp] [info] Initializing server...
+2025-03-31T11:22:00.368Z [whatsapp] [info] Server started and connected successfully
+2025-03-31T11:22:00.404Z [whatsapp] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+Using CPython 3.11.3 interpreter at: /usr/local/bin/python3.11
+Creating virtual environment at: .venv
+error: failed to create directory `/usr/local/lib/node_modules/whatsapp-mcp/whatsapp-mcp-server/.venv`: Permission denied (os error 13)
+2025-03-31T11:22:00.487Z [whatsapp] [info] Server transport closed
+2025-03-31T11:22:00.487Z [whatsapp] [info] Client transport closed
+2025-03-31T11:22:00.487Z [whatsapp] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-03-31T11:22:00.487Z [whatsapp] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) {"context":"connection"}
+2025-03-31T11:22:00.487Z [whatsapp] [info] Client transport closed
