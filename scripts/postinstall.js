@@ -127,6 +127,6 @@ console.log(chalk.gray('   $ npx whatsapp-mcp configure --target cursor'));
 console.log(chalk.white('3. Restart Claude Desktop or Cursor to apply the changes'));
 
 console.log(chalk.blue('\nFor more information, see the documentation:'));
-console.log(chalk.gray('https://github.com/lharries/whatsapp-mcp'));
+console.log(chalk.gray('https://github.com/Candombe/whatsapp-mcp'));
 
 console.log(chalk.blue('\nEnjoy using WhatsApp MCP!'));
